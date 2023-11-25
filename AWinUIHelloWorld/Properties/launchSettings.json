@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AWinUIHelloWorld (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "AWinUIHelloWorld (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
