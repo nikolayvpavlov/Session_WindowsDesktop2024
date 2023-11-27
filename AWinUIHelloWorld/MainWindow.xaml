@@ -11,12 +11,12 @@
         <DesktopAcrylicBackdrop />
     </Window.SystemBackdrop>
 
-    <Grid RowDefinitions="*,*">
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Transparent">
-            <TextBlock Style="{StaticResource HeaderTextBlockStyle}">Hello, WinUI 3!</TextBlock>
-        </StackPanel>
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Background="Gray" Grid.Row="1">
-            <Button x:Name="myButton">Click me</Button>
-        </StackPanel>
+    <Grid>
+        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <TextBlock Style="{StaticResource HeaderTextBlockStyle}" HorizontalAlignment="Center" VerticalAlignment="Center">Hello, WinUI 3!</TextBlock>
+        </Grid>
+        <!--<Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="LightGray" Grid.Row="1">
+            <Button x:Name="myButton" HorizontalAlignment="Center">Click me</Button>
+        </Grid>-->
     </Grid>
 </Window>

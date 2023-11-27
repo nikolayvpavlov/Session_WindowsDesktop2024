@@ -39,7 +39,7 @@
             bLoadIsland.Name = "bLoadIsland";
             bLoadIsland.Size = new Size(175, 23);
             bLoadIsland.TabIndex = 0;
-            bLoadIsland.Text = "Load Xaml in Island";
+            bLoadIsland.Text = "Load WinUI 3 in Island";
             bLoadIsland.UseVisualStyleBackColor = true;
             bLoadIsland.Click += bLoadIsland_Click;
             // 

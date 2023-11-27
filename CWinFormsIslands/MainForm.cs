@@ -11,7 +11,7 @@ namespace CWinFormsIslands
             InitializeComponent();
         }
 
-        private DesktopWindowXamlSource xamlSource { get; set; }
+        private DesktopWindowXamlSource xamlSource { get; set; } = default!;
 
         private void InitializeIsland()
         {
@@ -54,8 +54,8 @@ namespace CWinFormsIslands
 
         private void bLoadCustomPage_Click(object sender, EventArgs e)
         {
-            MyWinUILibrary.MyFabulousPage page = new MyWinUILibrary.MyFabulousPage();
-            xamlSource.Content = page;
+            var content = new MyWinUILibrary.MyFabulousPage();
+            xamlSource.Content = content;
         }
     }
 }
