@@ -15,8 +15,5 @@
         <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
             <TextBlock Style="{StaticResource HeaderTextBlockStyle}" HorizontalAlignment="Center" VerticalAlignment="Center">Hello, WinUI 3!</TextBlock>
         </Grid>
-        <!--<Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="LightGray" Grid.Row="1">
-            <Button x:Name="myButton" HorizontalAlignment="Center">Click me</Button>
-        </Grid>-->
     </Grid>
 </Window>

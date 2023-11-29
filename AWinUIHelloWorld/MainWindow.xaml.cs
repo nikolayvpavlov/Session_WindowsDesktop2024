@@ -26,6 +26,6 @@ namespace AWinUIHelloWorld
         public MainWindow()
         {
             this.InitializeComponent();
-        }        
+        }
     }
 }
