@@ -8,6 +8,7 @@ namespace CWinFormsIslands
         [STAThread]
         static void Main()
         {
+            //_ = new MyWinUILibrary.DummyApp();
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();

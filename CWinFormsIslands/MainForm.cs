@@ -54,6 +54,12 @@ namespace CWinFormsIslands
 
         private void bLoadCustomPage_Click(object sender, EventArgs e)
         {
+            var content = new MyWinUILibrary.MyBasicPage();
+            xamlSource.Content = content;
+        }
+
+        private void bLoadMoreControls_Click(object sender, EventArgs e)
+        {            
             var content = new MyWinUILibrary.MyFabulousPage();
             xamlSource.Content = content;
         }

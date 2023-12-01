@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<UserControl
-    x:Class="MyWinUILibrary.MyFabulousUI"
+<Page
+    x:Class="MyWinUILibrary.MyBasicPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:MyWinUILibrary"
@@ -9,11 +9,11 @@
     mc:Ignorable="d">
 
     <Grid>
-        <NavigationView x:Name="navigationView" IsSettingsVisible="True">
-            <NavigationView.MenuItems>
-                <NavigationViewItem Icon="NewFolder" Content="Menu item 1" />
-            </NavigationView.MenuItems>
-            <Frame x:Name="frameContent" />
-        </NavigationView>
+        <ListBox Width="200">
+            <x:String>Blue</x:String>
+            <x:String>Green</x:String>
+            <x:String>Red</x:String>
+            <x:String>Yellow</x:String>
+        </ListBox>
     </Grid>
-</UserControl>
+</Page>

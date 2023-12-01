@@ -7,8 +7,8 @@
     <UseWinUI>true</UseWinUI>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="MyBasicPage.xaml" />
     <None Remove="MyFabulousPage.xaml" />
-    <None Remove="MyFabulousUI.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Page Update="MyFabulousUI.xaml">
+    <Page Update="MyBasicPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>

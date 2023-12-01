@@ -18,9 +18,9 @@ using Windows.Foundation.Collections;
 
 namespace MyWinUILibrary
 {
-    public sealed partial class MyFabulousUI : UserControl
+    public sealed partial class MyBasicPage : Page
     {
-        public MyFabulousUI()
+        public MyBasicPage()
         {
             this.InitializeComponent();
         }

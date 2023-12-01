@@ -10,12 +10,14 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <ListBox Width="200">
-            <x:String>Blue</x:String>
-            <x:String>Green</x:String>
-            <x:String>Red</x:String>
-            <x:String>Yellow</x:String>
-        </ListBox>
+        <NavigationView x:Name="navigationView" IsSettingsVisible="True">
+            <NavigationView.MenuItems>
+                <NavigationViewItem Icon="NewFolder" Content="Menu item 1" />
+                <NavigationViewItem Icon="Play" Content="Menu item 2" />
+                <NavigationViewItem Icon="Refresh" Content="Menu item 3" />
+            </NavigationView.MenuItems>
+            <Frame x:Name="frameContent" />
+        </NavigationView>
     </Grid>
 
 </Page>

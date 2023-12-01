@@ -31,6 +31,7 @@
             bLoadIsland = new Button();
             pXamlIsland = new Panel();
             bLoadCustomPage = new Button();
+            bLoadMoreControls = new Button();
             SuspendLayout();
             // 
             // bLoadIsland
@@ -60,11 +61,22 @@
             bLoadCustomPage.UseVisualStyleBackColor = true;
             bLoadCustomPage.Click += bLoadCustomPage_Click;
             // 
+            // bLoadMoreControls
+            // 
+            bLoadMoreControls.Location = new Point(364, 12);
+            bLoadMoreControls.Name = "bLoadMoreControls";
+            bLoadMoreControls.Size = new Size(165, 23);
+            bLoadMoreControls.TabIndex = 3;
+            bLoadMoreControls.Text = "Load More in Island";
+            bLoadMoreControls.UseVisualStyleBackColor = true;
+            bLoadMoreControls.Click += bLoadMoreControls_Click;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(bLoadMoreControls);
             Controls.Add(bLoadCustomPage);
             Controls.Add(pXamlIsland);
             Controls.Add(bLoadIsland);
@@ -79,5 +91,6 @@
         private Button bLoadIsland;
         private Panel pXamlIsland;
         private Button bLoadCustomPage;
+        private Button bLoadMoreControls;
     }
 }
