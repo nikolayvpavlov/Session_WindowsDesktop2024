@@ -12,7 +12,7 @@
     <Grid>
         <NavigationView x:Name="navigationView" IsSettingsVisible="True">
             <NavigationView.MenuItems>
-                <NavigationViewItem Icon="NewFolder" Content="Menu item 1" />
+                <NavigationViewItem Icon="NewFolder" Content="Menu item 1" Tag="SamplePage"/>
                 <NavigationViewItem Icon="Play" Content="Menu item 2" />
                 <NavigationViewItem Icon="Refresh" Content="Menu item 3" />
             </NavigationView.MenuItems>
