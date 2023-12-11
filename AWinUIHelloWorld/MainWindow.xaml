@@ -12,8 +12,9 @@
     </Window.SystemBackdrop>
 
     <Grid>
-        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-            <TextBlock Style="{StaticResource HeaderTextBlockStyle}" HorizontalAlignment="Center" VerticalAlignment="Center">Hello, WinUI 3!</TextBlock>
-        </Grid>
+        <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Center" Orientation="Vertical">
+            <TextBlock Style="{StaticResource HeaderTextBlockStyle}" HorizontalAlignment="Center">Hello, WinUI 3!</TextBlock>
+            <Button x:Name="bClickMe" HorizontalAlignment="Center">Click me!</Button>
+        </StackPanel>
     </Grid>
 </Window>

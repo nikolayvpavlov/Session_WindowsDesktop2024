@@ -10,7 +10,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <NavigationView x:Name="navigationView" IsSettingsVisible="True">
+        <NavigationView x:Name="navigationView" IsSettingsVisible="True" SelectionChanged="navigationView_SelectionChanged">
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="NewFolder" Content="Menu item 1" Tag="SamplePage"/>
                 <NavigationViewItem Icon="Play" Content="Menu item 2" />
